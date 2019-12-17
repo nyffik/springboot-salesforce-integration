@@ -1,0 +1,9 @@
+salesforce:
+  jwt:
+    client-id : CLIENT_ID
+    subject: SALESFORCE_USER
+    audience: https://login.salesforce.com
+    expiration-in-minutes: 5
+spring:
+  autoconfigure:
+    exclude=org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
